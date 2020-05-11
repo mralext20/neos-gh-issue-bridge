@@ -6,6 +6,7 @@ export default class {
     this.web_link = rawData.html_url;
     this.title = rawData.title;
     this.body = rawData.body;
+    this.id = rawData.number;
     this.lables = ""
     rawData.labels.forEach(e => {
       this.lables += `${e.name} `
@@ -17,6 +18,7 @@ export default class {
 TITLE:${this.title}\r\n
 LABELS:${this.lables}\r\n
 WEB_LINK:${this.web_link}\r\n
+ID:${this.id}\r\n
 USER_NAME:${this.user_name}\r\n
 USER_AVATAR:${this.user_avatar_url}\r\n
 BODY:${this.body}\r\n\
