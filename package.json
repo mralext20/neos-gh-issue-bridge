@@ -4,12 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "debug": "node index.js",
-    "start": "node index.js",
-    "dev": "node index.js",
-    "setup": "npm install"
+    "start": "node index.js"
   },
-  "author": "Boise Codeworks",
+  "author": "Alexander Terry",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.1",
